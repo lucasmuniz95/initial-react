@@ -1,15 +1,9 @@
 on: push
-name: push CI/CD
+name: 🚀 Deploy website on push
 jobs:
-   continuos-integration:
-
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
-      - name: Using Node.js
-        uses: actions/setup-node@v2
-      - name:
-        run: |
-         npm install
-         npm run build
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
