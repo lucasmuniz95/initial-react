@@ -18,7 +18,7 @@ export default () => {
                     <Padrasto sobrenome="React">
                         <Filho nome="Chamando Filho 1"/>
                         <Filho nome="Chamando Filho 2"/>
-                        <Filho nome="Chamando Filho 3"/>
+                        <Filho nome="Mudança para actions"/>
                     </Padrasto>
                 </Card>
                 <Card titulo="Sem o Pai sem props" color='#008080'>
